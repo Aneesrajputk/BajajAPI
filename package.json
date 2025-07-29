@@ -1,4 +1,12 @@
 {
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "API bajaj",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0"
