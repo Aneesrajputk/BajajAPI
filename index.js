@@ -65,7 +65,7 @@ app.post('/bfhl', (req, res) => {
 
 // Start the server
 
-app.get("/", (req, res) => {
+app.get("/bfhl", (req, res) => {
   res.send("Api Shi chal rhi h.");
 });
 
