@@ -64,6 +64,11 @@ app.post('/bfhl', (req, res) => {
 });
 
 // Start the server
+
+app.get("/", (req, res) => {
+  res.send("Api Shi chal rhi h.");
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
